@@ -1,0 +1,275 @@
+/* Beginning Section Laetita */
+/* Beginning Header*/
+.bg-grey {
+  background-color: #262238;
+}
+
+.texticonetop {
+  color: white;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.9);
+    padding-left: 25px;
+}
+
+/* End Header */
+
+/* Beginning Navbar*/
+
+/* End Navbar*/
+/* End section Laetita */
+
+/* Beginning section Manuel */
+/* Beginning section 1 carousel*/
+/* .japan {
+  background-image: url(assets/images/japan.jpg);
+} */
+/* .carousel-background {
+  background-image: url(/assets/images/japan.jpg);
+} */
+.carousel-item .img-fluid {
+  display: none;
+  position: relative;
+  .transition(.6s ease-in-out left);
+  width: 100%;
+  height: 100%;
+}
+/* End carousel*/
+
+/* Beginning Introduction*/
+.h-img {
+height: 300px;
+}
+
+.introduction {
+  height: auto;
+  width: auto;
+}
+
+.introduction .container-fluid {
+  background: url(http://www.izakayajoyi.fr/assets/background-bottom-0cb739883a15eb73405ca8b81c2131b7e3becf73969a054a335cfb7149f13063.jpg);
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+.introduction-text {
+  width: 400px;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #efefef;
+  border: 1px white solid;
+  border-radius: 5px;
+}
+
+.introduction-text.text-justify h2 {
+  font-family: Arial;
+  font-size: 2rem;
+  padding: 5px center;
+  text-shadow: 1px 1px 1px white;
+}
+
+.introduction-text.text-justify p {
+  font-family: Arial;
+  font-size: 15px;
+  text-shadow: 1px 0px 0px white;
+  padding: 5px center;
+}
+/* End Introduction section 1*/
+/* End section Manuel */
+
+
+/* Beginning Background 1 */
+#background-1 {
+  background: url(../../images/1.jpg) no-repeat center center fixed;
+}
+/* End Background 1 */
+
+/* Beginning Section Karl */
+/* Beginning section2 carousel formule Karl */
+.card img {
+  height: 200px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.h-card {
+  min-height: 420px;
+}
+
+.kprev, .knext { /*bouton carousel prev */
+  padding-top: 100px;
+  color: red;
+}
+
+.card-footer {
+  text-align: right;
+}
+
+/* End section2 carousel formule Karl */
+/* End Section Karl */
+
+/* Beginning Background 2 */
+#background-2 {
+  background: url(../../images/2.jpg) no-repeat center center fixed;
+}
+/* End Background 2 */
+/* Beginning Section Fabien */
+/* Beginning section 3 Contact/Formulaire*/
+.delete-margin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.delete-margin-p {
+  margin-top: 1rem;
+  float: left;
+}
+
+.height-card {
+  min-height: 270px;
+}
+
+.b-border {
+  border-bottom: 1px solid #323f45;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #8AC53F;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #8AC53F;
+}
+
+.btn-primary:hover, .btn-primary {
+    color: #fff;
+    background-color: #8AC53F;
+    border-color: #8AC53F;
+}
+
+form .card-deck .card p {
+  text-align: left;
+}
+
+form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form .card-footer {
+  float: right;
+  padding: 0 10px;
+  background-color: inherit;
+  border-top: 0px;
+  text-align: right;
+}
+
+.form-check-label {
+  padding-right: 30px;
+}
+
+/* End section 3 Contact/Formulaire*/
+/* Beginning Background 3*/
+#background-3 {
+  background: url(../../images/3.jpg) no-repeat center center fixed;
+}
+
+#background-1, #background-2, #background-3 {
+  opacity: 0.5;
+  min-height: 450px;
+}
+/* End Background 3*/
+/* Beginning Footer*/
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+
+footer p {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #CCC;
+  margin-bottom: 8px;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+
+.change-ul {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.change-ul li {
+  padding-bottom: 5px;
+}
+
+.change-ul li a {
+  color:#CCC;
+}
+
+.change-ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  list-style-type: none;
+}
+
+.social li a {
+  text-align: center;
+  color: #CCC;
+  border: 1px solid #CCC;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social li i {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-footer {
+  list-style-type:none;
+  padding:0px;
+  display:table;
+  margin-top: 10px ;
+	margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.menu-footer li {
+  display:inline;
+}
+
+.menu-footer li a {
+  color:#999;
+  margin:0 12px;
+}
+
+.img-map {
+  width: 50%;
+}
+/* End Footer*/
+/* End Section Fabien */
+@media only screen and (max-width: 900px) {
+  .knext, .kprev {
+    visibility: hidden;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
